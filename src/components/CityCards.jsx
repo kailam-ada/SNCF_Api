@@ -1,4 +1,3 @@
-import React from 'react'
 import stations from '../gares.json'
 import CityCard from './CityCard'
 
