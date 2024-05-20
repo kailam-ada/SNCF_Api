@@ -1,8 +1,8 @@
 import React from 'react'
 
-function CityCard() {
+function CityCard({ city }) {
   return (
-    <div>CityCard</div>
+    <div className='city-card' style={{ backgroundImage: `url(./images/${city}.webp)` }} >{city}</div>
   )
 }
 
