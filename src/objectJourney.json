@@ -1,0 +1,277 @@
+{
+    "pagination": {
+      "total_result": 1,
+      "start_page": 0,
+      "items_per_page": 25,
+      "items_on_page": 1
+    },
+    "feed_publishers": [
+      {
+        "id": "sncf",
+        "name": "SNCF PIV Production",
+        "url": "",
+        "license": "Private (unspecified)"
+      },
+      {
+        "id": "SNCF:sncf-piv",
+        "name": "SNCF PIV Production",
+        "url": "",
+        "license": "Private (unspecified)"
+      }
+    ],
+    "disruptions": [],
+    "context": {
+      "current_datetime": "20240524T224021",
+      "timezone": "Europe/Paris"
+    },
+    "vehicle_journeys": [
+      {
+        "id": "vehicle_journey:SNCF:2024-05-24:117584:1187:RapidTransit",
+        "name": "117584",
+        "journey_pattern": {
+          "id": "journey_pattern:7908",
+          "name": "journey_pattern:7908"
+        },
+        "stop_times": [
+          {
+            "arrival_time": "204600",
+            "utc_arrival_time": "184600",
+            "departure_time": "204600",
+            "utc_departure_time": "184600",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116160:RapidTransit",
+              "name": "Provins",
+              "label": "Provins (Provins)",
+              "coord": {
+                "lon": "3.302837",
+                "lat": "48.555737"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": false,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "204900",
+            "utc_arrival_time": "184900",
+            "departure_time": "204900",
+            "utc_departure_time": "184900",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87115873:RapidTransit",
+              "name": "Champbenoist Poigny",
+              "label": "Champbenoist Poigny (Poigny)",
+              "coord": {
+                "lon": "3.287434",
+                "lat": "48.545567"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "205300",
+            "utc_arrival_time": "185300",
+            "departure_time": "205400",
+            "utc_departure_time": "185400",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116178:RapidTransit",
+              "name": "Sainte-Colombe Septveilles",
+              "label": "Sainte-Colombe Septveilles (Sainte-Colombe)",
+              "coord": {
+                "lon": "3.25602",
+                "lat": "48.52959"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "205700",
+            "utc_arrival_time": "185700",
+            "departure_time": "210500",
+            "utc_departure_time": "190500",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116137:RapidTransit",
+              "name": "Longueville",
+              "label": "Longueville (Longueville)",
+              "coord": {
+                "lon": "3.249822",
+                "lat": "48.513703"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "211900",
+            "utc_arrival_time": "191900",
+            "departure_time": "212000",
+            "utc_departure_time": "192000",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116095:RapidTransit",
+              "name": "Nangis",
+              "label": "Nangis (Nangis)",
+              "coord": {
+                "lon": "3.012619",
+                "lat": "48.561336"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "212800",
+            "utc_arrival_time": "192800",
+            "departure_time": "212900",
+            "utc_departure_time": "192900",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116087:RapidTransit",
+              "name": "Mormant",
+              "label": "Mormant (Mormant)",
+              "coord": {
+                "lon": "2.88881",
+                "lat": "48.613564"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "213500",
+            "utc_arrival_time": "193500",
+            "departure_time": "213600",
+            "utc_departure_time": "193600",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87116079:RapidTransit",
+              "name": "Verneuil-l'Étang",
+              "label": "Verneuil-l'Étang (Verneuil-l'Étang)",
+              "coord": {
+                "lon": "2.824956",
+                "lat": "48.644715"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": true,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          },
+          {
+            "arrival_time": "221200",
+            "utc_arrival_time": "201200",
+            "departure_time": "221200",
+            "utc_departure_time": "201200",
+            "headsign": "PIBU",
+            "stop_point": {
+              "id": "stop_point:SNCF:87113001:RapidTransit",
+              "name": "Paris Est",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": [],
+              "equipments": []
+            },
+            "pickup_allowed": false,
+            "drop_off_allowed": true,
+            "skipped_stop": false
+          }
+        ],
+        "codes": [
+          {
+            "type": "rt_piv",
+            "value": "2024-05-24:117584:1187:rail:suburbanRailway:FERRE"
+          },
+          {
+            "type": "source",
+            "value": "4bc06731bf6334479739da8b8548fe6f"
+          }
+        ],
+        "validity_pattern": {
+          "beginning_date": "20240522",
+          "days": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100"
+        },
+        "calendars": [
+          {
+            "week_pattern": {
+              "monday": false,
+              "tuesday": false,
+              "wednesday": false,
+              "thursday": false,
+              "friday": true,
+              "saturday": false,
+              "sunday": false
+            },
+            "active_periods": [
+              {
+                "begin": "20240524",
+                "end": "20240525"
+              }
+            ]
+          }
+        ],
+        "trip": {
+          "id": "SNCF:2024-05-24:117584:1187:RapidTransit",
+          "name": "117584"
+        },
+        "disruptions": [],
+        "headsign": "PIBU"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/vehicle_journeys/{vehicle_journeys.id}",
+        "templated": true,
+        "rel": "vehicle_journeys",
+        "type": "vehicle_journeys"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/journey_patterns/{journey_pattern.id}",
+        "templated": true,
+        "rel": "journey_patterns",
+        "type": "journey_pattern"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_points/{stop_point.id}",
+        "templated": true,
+        "rel": "stop_points",
+        "type": "stop_point"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/trips/{trip.id}",
+        "templated": true,
+        "rel": "trips",
+        "type": "trip"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/vehicle_journeys/vehicle_journey:SNCF:2024-05-24:117584:1187:RapidTransit",
+        "type": "first",
+        "templated": false
+      }
+    ]
+  }

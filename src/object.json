@@ -1,0 +1,2316 @@
+{
+    "pagination": {
+      "total_result": 10,
+      "start_page": 0,
+      "items_per_page": 10,
+      "items_on_page": 10
+    },
+    "feed_publishers": [
+      {
+        "id": "sncf",
+        "name": "SNCF PIV Production",
+        "url": "",
+        "license": "Private (unspecified)"
+      },
+      {
+        "id": "SNCF:sncf-piv",
+        "name": "SNCF PIV Production",
+        "url": "",
+        "license": "Private (unspecified)"
+      }
+    ],
+    "disruptions": [
+      {
+        "id": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a",
+        "disruption_id": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a",
+        "impact_id": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a",
+        "application_periods": [
+          {
+            "begin": "20240524T195030",
+            "end": "20240524T223600"
+          }
+        ],
+        "status": "active",
+        "updated_at": "20240524T204927",
+        "cause": "",
+        "severity": {
+          "name": "trip delayed",
+          "effect": "SIGNIFICANT_DELAYS",
+          "color": "#000000",
+          "priority": 42
+        },
+        "impacted_objects": [
+          {
+            "pt_object": {
+              "id": "SNCF:2024-05-24:7694:1187:LongDistanceTrain",
+              "name": "SNCF:2024-05-24:7694:1187:LongDistanceTrain",
+              "quality": 0,
+              "trip": {
+                "id": "SNCF:2024-05-24:7694:1187:LongDistanceTrain",
+                "name": "7694"
+              },
+              "embedded_type": "trip"
+            },
+            "impacted_stops": [
+              {
+                "stop_point": {
+                  "id": "stop_point:SNCF:87212027:LongDistanceTrain",
+                  "name": "Strasbourg",
+                  "label": "Strasbourg (Strasbourg)",
+                  "coord": {
+                    "lon": "7.734793",
+                    "lat": "48.584532"
+                  },
+                  "links": [],
+                  "equipments": []
+                },
+                "base_arrival_time": "195100",
+                "base_departure_time": "195100",
+                "amended_arrival_time": "195100",
+                "amended_departure_time": "195100",
+                "cause": "",
+                "stop_time_effect": "unchanged",
+                "departure_status": "unchanged",
+                "arrival_status": "unchanged",
+                "is_detour": false
+              },
+              {
+                "stop_point": {
+                  "id": "stop_point:SNCF:87192039:LongDistanceTrain",
+                  "name": "Metz",
+                  "label": "Metz (Metz)",
+                  "coord": {
+                    "lon": "6.177052",
+                    "lat": "49.109466"
+                  },
+                  "links": [],
+                  "equipments": []
+                },
+                "base_arrival_time": "204600",
+                "base_departure_time": "210400",
+                "amended_arrival_time": "205100",
+                "amended_departure_time": "210900",
+                "cause": "",
+                "stop_time_effect": "delayed",
+                "departure_status": "delayed",
+                "arrival_status": "delayed",
+                "is_detour": false
+              },
+              {
+                "stop_point": {
+                  "id": "stop_point:SNCF:87113001:LongDistanceTrain",
+                  "name": "Paris Est",
+                  "label": "Paris Est (Paris)",
+                  "coord": {
+                    "lon": "2.358424",
+                    "lat": "48.876742"
+                  },
+                  "links": [],
+                  "equipments": []
+                },
+                "base_arrival_time": "223100",
+                "base_departure_time": "223100",
+                "amended_arrival_time": "223600",
+                "amended_departure_time": "223600",
+                "cause": "",
+                "stop_time_effect": "delayed",
+                "departure_status": "unchanged",
+                "arrival_status": "delayed",
+                "is_detour": false
+              }
+            ]
+          }
+        ],
+        "uri": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a",
+        "disruption_uri": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a",
+        "contributor": "realtime.sncf.piv"
+      }
+    ],
+    "context": {
+      "current_datetime": "20240524T221108",
+      "timezone": "Europe/Paris"
+    },
+    "arrivals": [
+      {
+        "route": {
+          "id": "route:SNCF:P",
+          "name": "P",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:P",
+            "name": "P",
+            "code": "P",
+            "color": "F0B600",
+            "text_color": "FFFFFF",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:RapidTransit",
+                "name": "RER / Transilien"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "045000",
+            "closing_time": "001000",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:RapidTransit",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            {
+              "id": "commercial_mode:TNRER",
+              "name": "RER"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien",
+              "co2_emission_rate": {
+                "value": 7.28,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T221200",
+          "base_departure_date_time": "20240524T221200",
+          "arrival_date_time": "20240524T221200",
+          "base_arrival_date_time": "20240524T221200",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "P",
+          "color": "F0B600",
+          "code": "P",
+          "name": "P",
+          "links": [],
+          "text_color": "FFFFFF",
+          "description": "",
+          "physical_mode": "RER / Transilien",
+          "equipments": [],
+          "headsign": "PIBU",
+          "trip_short_name": "117584"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:P"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:117584:1187:RapidTransit"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:P"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:RapidTransit"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:CSR:661100",
+          "name": "Stuttgart Hbf - Paris Est",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:CSR:661100",
+            "name": "Stuttgart Hbf - Paris Est",
+            "code": "",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:LongDistanceTrain",
+                "name": "Train grande vitesse"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:DBS",
+              "name": "DB SNCF"
+            },
+            "network": {
+              "id": "network:SNCF:DBS",
+              "name": "DB SNCF",
+              "links": []
+            },
+            "opening_time": "064100",
+            "closing_time": "235400",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:LongDistanceTrain",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:DBS",
+              "name": "DB SNCF"
+            },
+            {
+              "id": "commercial_mode:OUI",
+              "name": "TGV INOUI"
+            },
+            {
+              "id": "commercial_mode:TER",
+              "name": "TER"
+            },
+            {
+              "id": "commercial_mode:TGVOUIGO",
+              "name": "OUIGO"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse",
+              "co2_emission_rate": {
+                "value": 2.36,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T221300",
+          "base_departure_date_time": "20240524T221300",
+          "arrival_date_time": "20240524T221300",
+          "base_arrival_date_time": "20240524T221300",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "DB SNCF",
+          "network": "DB SNCF",
+          "direction": "Paris Est (Paris)",
+          "label": "Stuttgart Hbf - Paris Est",
+          "color": "",
+          "code": "",
+          "name": "Stuttgart Hbf - Paris Est",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Train grande vitesse",
+          "equipments": [],
+          "headsign": "9570",
+          "trip_short_name": "9570"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:CSR:661100"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:9570:1187:LongDistanceTrain"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:CSR:661100"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:DBS"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:LongDistanceTrain"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:DBS"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:FR:Line::9302e13e-8434-45ce-a5bc-9fe445fd95bc:",
+          "name": "PARIS - MULHOUSE",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:Coach",
+              "name": "Autocar"
+            },
+            {
+              "id": "physical_mode:Train",
+              "name": "TER / Intercités"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:FR:Line::9302e13e-8434-45ce-a5bc-9fe445fd95bc:",
+            "name": "PARIS - MULHOUSE",
+            "code": "",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:Train",
+                "name": "TER / Intercités"
+              },
+              {
+                "id": "physical_mode:Coach",
+                "name": "Autocar"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TER",
+              "name": "TER"
+            },
+            "network": {
+              "id": "network:SNCF:TER",
+              "name": "TER",
+              "links": []
+            },
+            "opening_time": "044900",
+            "closing_time": "000500",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:Train",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TER",
+              "name": "TER"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:Train",
+              "name": "TER / Intercités",
+              "co2_emission_rate": {
+                "value": 11.9,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T221600",
+          "base_departure_date_time": "20240524T221600",
+          "arrival_date_time": "20240524T221600",
+          "base_arrival_date_time": "20240524T221600",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TER",
+          "network": "TER",
+          "direction": "Paris Est (Paris)",
+          "label": "PARIS - MULHOUSE",
+          "color": "",
+          "code": "",
+          "name": "PARIS - MULHOUSE",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "TER / Intercités",
+          "equipments": [],
+          "headsign": "839558",
+          "trip_short_name": "839558"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:FR:Line::9302e13e-8434-45ce-a5bc-9fe445fd95bc:"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:839558:1187:Train"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:FR:Line::9302e13e-8434-45ce-a5bc-9fe445fd95bc:"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TER"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:Train"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TER"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:P",
+          "name": "P",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:P",
+            "name": "P",
+            "code": "P",
+            "color": "F0B600",
+            "text_color": "FFFFFF",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:RapidTransit",
+                "name": "RER / Transilien"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "045000",
+            "closing_time": "001000",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:RapidTransit",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            {
+              "id": "commercial_mode:TNRER",
+              "name": "RER"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien",
+              "co2_emission_rate": {
+                "value": 7.28,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T222700",
+          "base_departure_date_time": "20240524T222700",
+          "arrival_date_time": "20240524T222700",
+          "base_arrival_date_time": "20240524T222700",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "P",
+          "color": "F0B600",
+          "code": "P",
+          "name": "P",
+          "links": [],
+          "text_color": "FFFFFF",
+          "description": "",
+          "physical_mode": "RER / Transilien",
+          "equipments": [],
+          "headsign": "PICI",
+          "trip_short_name": "113688"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:P"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:113688:1187:RapidTransit"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:P"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:RapidTransit"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:CSR:333100",
+          "name": "Paris Est - Strasbourg",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:CSR:333100",
+            "name": "Paris Est - Strasbourg",
+            "code": "",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:LongDistanceTrain",
+                "name": "Train grande vitesse"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TGVOUIGO",
+              "name": "OUIGO"
+            },
+            "network": {
+              "id": "network:SNCF:TGVOUIGO",
+              "name": "OUIGO",
+              "links": []
+            },
+            "opening_time": "100700",
+            "closing_time": "223300",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:LongDistanceTrain",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:DBS",
+              "name": "DB SNCF"
+            },
+            {
+              "id": "commercial_mode:OUI",
+              "name": "TGV INOUI"
+            },
+            {
+              "id": "commercial_mode:TER",
+              "name": "TER"
+            },
+            {
+              "id": "commercial_mode:TGVOUIGO",
+              "name": "OUIGO"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse",
+              "co2_emission_rate": {
+                "value": 2.36,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T223600",
+          "base_departure_date_time": "20240524T223100",
+          "arrival_date_time": "20240524T223600",
+          "base_arrival_date_time": "20240524T223100",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "realtime"
+        },
+        "display_informations": {
+          "commercial_mode": "OUIGO",
+          "network": "OUIGO",
+          "direction": "Paris Est (Paris)",
+          "label": "Paris Est - Strasbourg",
+          "color": "",
+          "code": "",
+          "name": "Paris Est - Strasbourg",
+          "links": [
+            {
+              "templated": false,
+              "rel": "disruptions",
+              "internal": true,
+              "type": "disruption",
+              "id": "5e6fbeb6-40b6-45a6-b398-158a63d3dc5a"
+            }
+          ],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Train grande vitesse",
+          "equipments": [],
+          "headsign": "7694",
+          "trip_short_name": "7694"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:CSR:333100"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:7694:1187:LongDistanceTrain:RealTime:c381ad12-bc81-41dc-9dd6-1e18f29e7c53"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:CSR:333100"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TGVOUIGO"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:LongDistanceTrain"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TGVOUIGO"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:CSR:807100",
+          "name": "Paris Est - Strasbourg",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87212027",
+            "name": "Strasbourg (Strasbourg)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87212027",
+              "name": "Strasbourg",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87212027"
+                },
+                {
+                  "type": "uic",
+                  "value": "87212027"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Strasbourg (Strasbourg)",
+              "coord": {
+                "lon": "7.734793",
+                "lat": "48.584532"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:CSR:807100",
+            "name": "Paris Est - Strasbourg",
+            "code": "",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:LongDistanceTrain",
+                "name": "Train grande vitesse"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:OUI",
+              "name": "TGV INOUI"
+            },
+            "network": {
+              "id": "network:SNCF:OUI",
+              "name": "TGV INOUI",
+              "links": []
+            },
+            "opening_time": "063100",
+            "closing_time": "234100",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:LongDistanceTrain",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:DBS",
+              "name": "DB SNCF"
+            },
+            {
+              "id": "commercial_mode:OUI",
+              "name": "TGV INOUI"
+            },
+            {
+              "id": "commercial_mode:TER",
+              "name": "TER"
+            },
+            {
+              "id": "commercial_mode:TGVOUIGO",
+              "name": "OUIGO"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:LongDistanceTrain",
+              "name": "Train grande vitesse",
+              "co2_emission_rate": {
+                "value": 2.36,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T223800",
+          "base_departure_date_time": "20240524T223800",
+          "arrival_date_time": "20240524T223800",
+          "base_arrival_date_time": "20240524T223800",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TGV INOUI",
+          "network": "TGV INOUI",
+          "direction": "Paris Est (Paris)",
+          "label": "Paris Est - Strasbourg",
+          "color": "",
+          "code": "",
+          "name": "Paris Est - Strasbourg",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Train grande vitesse",
+          "equipments": [],
+          "headsign": "2070",
+          "trip_short_name": "2070"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:CSR:807100"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:2070:1187:LongDistanceTrain"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:CSR:807100"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:OUI"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:LongDistanceTrain"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:OUI"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:P",
+          "name": "P",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est (Paris)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87113001",
+              "name": "Paris Est",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87113001"
+                },
+                {
+                  "type": "uic",
+                  "value": "87113001"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Paris Est (Paris)",
+              "coord": {
+                "lon": "2.358424",
+                "lat": "48.876742"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:P",
+            "name": "P",
+            "code": "P",
+            "color": "F0B600",
+            "text_color": "FFFFFF",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:RapidTransit",
+                "name": "RER / Transilien"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "045000",
+            "closing_time": "001000",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:RapidTransit",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            {
+              "id": "commercial_mode:TNRER",
+              "name": "RER"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:RapidTransit",
+              "name": "RER / Transilien",
+              "co2_emission_rate": {
+                "value": 7.28,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T224200",
+          "base_departure_date_time": "20240524T224200",
+          "arrival_date_time": "20240524T224200",
+          "base_arrival_date_time": "20240524T224200",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "P",
+          "color": "F0B600",
+          "code": "P",
+          "name": "P",
+          "links": [],
+          "text_color": "FFFFFF",
+          "description": "",
+          "physical_mode": "RER / Transilien",
+          "equipments": [],
+          "headsign": "PITU",
+          "trip_short_name": "117364"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:P"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:117364:1187:RapidTransit"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:P"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:RapidTransit"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:62",
+          "name": "H Bus",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87271122",
+            "name": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87271122",
+              "name": "Épinay - Villetaneuse",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87271122"
+                },
+                {
+                  "type": "uic",
+                  "value": "87271122"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+              "coord": {
+                "lon": "2.32865",
+                "lat": "48.95838"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:62",
+            "name": "H Bus",
+            "code": "H",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:Bus",
+                "name": "Bus"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "043300",
+            "closing_time": "035800",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:Bus",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus",
+              "co2_emission_rate": {
+                "value": 132,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T225200",
+          "base_departure_date_time": "20240524T225200",
+          "arrival_date_time": "20240524T225200",
+          "base_arrival_date_time": "20240524T225200",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "H",
+          "color": "",
+          "code": "H",
+          "name": "H Bus",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Bus",
+          "equipments": [],
+          "headsign": "H",
+          "trip_short_name": "42618387"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:62"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:42618387:1187:Bus"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:62"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:Bus"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:62",
+          "name": "H Bus",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87271122",
+            "name": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87271122",
+              "name": "Épinay - Villetaneuse",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87271122"
+                },
+                {
+                  "type": "uic",
+                  "value": "87271122"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+              "coord": {
+                "lon": "2.32865",
+                "lat": "48.95838"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:62",
+            "name": "H Bus",
+            "code": "H",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:Bus",
+                "name": "Bus"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "043300",
+            "closing_time": "035800",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:Bus",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus",
+              "co2_emission_rate": {
+                "value": 132,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T230200",
+          "base_departure_date_time": "20240524T230200",
+          "arrival_date_time": "20240524T230200",
+          "base_arrival_date_time": "20240524T230200",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "H",
+          "color": "",
+          "code": "H",
+          "name": "H Bus",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Bus",
+          "equipments": [],
+          "headsign": "H",
+          "trip_short_name": "42618386"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:62"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:42618386:1187:Bus"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:62"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:Bus"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      },
+      {
+        "route": {
+          "id": "route:SNCF:62",
+          "name": "H Bus",
+          "is_frequence": "False",
+          "direction_type": "forward",
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus"
+            }
+          ],
+          "direction": {
+            "id": "stop_area:SNCF:87271122",
+            "name": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+            "quality": 0,
+            "stop_area": {
+              "id": "stop_area:SNCF:87271122",
+              "name": "Épinay - Villetaneuse",
+              "codes": [
+                {
+                  "type": "source",
+                  "value": "87271122"
+                },
+                {
+                  "type": "uic",
+                  "value": "87271122"
+                }
+              ],
+              "timezone": "Europe/Paris",
+              "label": "Épinay - Villetaneuse (Épinay-sur-Seine)",
+              "coord": {
+                "lon": "2.32865",
+                "lat": "48.95838"
+              },
+              "links": []
+            },
+            "embedded_type": "stop_area"
+          },
+          "geojson": {
+            "type": "MultiLineString",
+            "coordinates": []
+          },
+          "links": [],
+          "line": {
+            "id": "line:SNCF:62",
+            "name": "H Bus",
+            "code": "H",
+            "color": "",
+            "text_color": "",
+            "codes": [],
+            "physical_modes": [
+              {
+                "id": "physical_mode:Bus",
+                "name": "Bus"
+              }
+            ],
+            "commercial_mode": {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            },
+            "network": {
+              "id": "network:SNCF:TN",
+              "name": "TRANSILIEN",
+              "links": []
+            },
+            "opening_time": "043300",
+            "closing_time": "035800",
+            "geojson": {
+              "type": "MultiLineString",
+              "coordinates": []
+            },
+            "links": []
+          }
+        },
+        "stop_point": {
+          "id": "stop_point:SNCF:87113001:Bus",
+          "name": "Paris Est",
+          "label": "Paris Est (Paris)",
+          "coord": {
+            "lon": "2.358424",
+            "lat": "48.876742"
+          },
+          "links": [],
+          "commercial_modes": [
+            {
+              "id": "commercial_mode:TN",
+              "name": "TRANSILIEN"
+            }
+          ],
+          "physical_modes": [
+            {
+              "id": "physical_mode:Bus",
+              "name": "Bus",
+              "co2_emission_rate": {
+                "value": 132,
+                "unit": "gEC/Km"
+              }
+            }
+          ],
+          "administrative_regions": [
+            {
+              "id": "admin:fr:75056",
+              "name": "Paris",
+              "level": 8,
+              "zip_code": "75000;75116",
+              "label": "Paris (75000-75116)",
+              "insee": "75056",
+              "coord": {
+                "lon": "2.3483915",
+                "lat": "48.8534951"
+              }
+            }
+          ],
+          "stop_area": {
+            "id": "stop_area:SNCF:87113001",
+            "name": "Paris Est",
+            "codes": [
+              {
+                "type": "source",
+                "value": "87113001"
+              },
+              {
+                "type": "uic",
+                "value": "87113001"
+              }
+            ],
+            "timezone": "Europe/Paris",
+            "label": "Paris Est (Paris)",
+            "coord": {
+              "lon": "2.358424",
+              "lat": "48.876742"
+            },
+            "links": [],
+            "administrative_regions": [
+              {
+                "id": "admin:fr:75056",
+                "name": "Paris",
+                "level": 8,
+                "zip_code": "75000;75116",
+                "label": "Paris (75000-75116)",
+                "insee": "75056",
+                "coord": {
+                  "lon": "2.3483915",
+                  "lat": "48.8534951"
+                }
+              }
+            ]
+          },
+          "equipments": []
+        },
+        "stop_date_time": {
+          "departure_date_time": "20240524T231200",
+          "base_departure_date_time": "20240524T231200",
+          "arrival_date_time": "20240524T231200",
+          "base_arrival_date_time": "20240524T231200",
+          "additional_informations": [],
+          "links": [],
+          "data_freshness": "base_schedule"
+        },
+        "display_informations": {
+          "commercial_mode": "TRANSILIEN",
+          "network": "TRANSILIEN",
+          "direction": "Paris Est (Paris)",
+          "label": "H",
+          "color": "",
+          "code": "H",
+          "name": "H Bus",
+          "links": [],
+          "text_color": "",
+          "description": "",
+          "physical_mode": "Bus",
+          "equipments": [],
+          "headsign": "H",
+          "trip_short_name": "42618385"
+        },
+        "links": [
+          {
+            "type": "line",
+            "id": "line:SNCF:62"
+          },
+          {
+            "type": "vehicle_journey",
+            "id": "vehicle_journey:SNCF:2024-05-24:42618385:1187:Bus"
+          },
+          {
+            "type": "route",
+            "id": "route:SNCF:62"
+          },
+          {
+            "type": "commercial_mode",
+            "id": "commercial_mode:TN"
+          },
+          {
+            "type": "physical_mode",
+            "id": "physical_mode:Bus"
+          },
+          {
+            "type": "network",
+            "id": "network:SNCF:TN"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions/{disruption.id}",
+        "templated": true,
+        "rel": "disruptions",
+        "type": "disruption"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/disruptions/{disruptions.id}",
+        "templated": true,
+        "rel": "disruptions",
+        "type": "disruptions"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/commercial_modes/{commercial_mode.id}",
+        "templated": true,
+        "rel": "commercial_modes",
+        "type": "commercial_mode"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/networks/{network.id}",
+        "templated": true,
+        "rel": "networks",
+        "type": "network"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_points/{stop_point.id}",
+        "templated": true,
+        "rel": "stop_points",
+        "type": "stop_point"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/commercial_modes/{commercial_modes.id}",
+        "templated": true,
+        "rel": "commercial_modes",
+        "type": "commercial_modes"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/physical_modes/{physical_modes.id}",
+        "templated": true,
+        "rel": "physical_modes",
+        "type": "physical_modes"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/lines/{line.id}",
+        "templated": true,
+        "rel": "lines",
+        "type": "line"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/physical_modes/{physical_mode.id}",
+        "templated": true,
+        "rel": "physical_modes",
+        "type": "physical_mode"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/routes/{route.id}",
+        "templated": true,
+        "rel": "routes",
+        "type": "route"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_areas/{stop_area.id}",
+        "templated": true,
+        "rel": "stop_areas",
+        "type": "stop_area"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/vehicle_journeys/{vehicle_journey.id}",
+        "templated": true,
+        "rel": "vehicle_journeys",
+        "type": "vehicle_journey"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/trips/{trip.id}",
+        "templated": true,
+        "rel": "trips",
+        "type": "trip"
+      },
+      {
+        "href": "https://api.sncf.com/v1/coverage/sncf/stop_areas/stop_area:SNCF:87113001/arrivals",
+        "type": "first",
+        "templated": false
+      }
+    ],
+    "notes": [],
+    "exceptions": []
+  }

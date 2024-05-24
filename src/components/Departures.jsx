@@ -2,6 +2,7 @@ import axios from "axios"
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { parseUTCDate, getFullMinutes, calculateDelay } from "./Utils"
+import Stops from "./Stops"
 
 function Departures() {
     const { codeStation } = useParams()
@@ -58,6 +59,7 @@ function Departures() {
                     {calculateDelay(departure.baseDepartureTime, departure.realDepartureTime)}
                 </p>
                 <p className="departure__destination">{departure.destination}</p>
+                <Stops idDeparture={departure.id} />
              </div>
         ))}
     </div>
