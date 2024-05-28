@@ -59,7 +59,7 @@ export default function Arrivals() {
                 <p className={`arrival__delay ${isTimeDisplayed ? 'arrival__delay--disappear' : ''}`} >
                     {calculateDelay(arrival.baseArrivalTime, arrival.realArrivalTime)}
                 </p>
-                <Origin idArrival={calculateDelay(arrival.baseArrivalTime, arrival.realArrivalTime) === 0
+                <Origin idArrival={calculateDelay(arrival.baseArrivalTime, arrival.realArrivalTime) === "à l'heure"
                     ? arrival.id
                     : arrival.id.split(":RealTime")[0]} />
             </div>
