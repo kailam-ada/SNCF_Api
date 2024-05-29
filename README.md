@@ -1,6 +1,23 @@
-# React + Vite
+# SCNF API App
+<!-- ABOUT THE PROJECT -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the project
+
+The aim was to create a project with React where I fetch datas from the SCNF API.
+
+## Demo
+
+***Coming soon !***
+
+## Deployment
+
+The project is live ! [Check it out !](https://sncf-api-project-by-kai.vercel.app/)
+
+## Documentation
+
+The [SNCF API](https://numerique.sncf.com/startup/api/) is built with [Navitia](https://doc.navitia.io/#getting-started).
+You need [to get an API key](https://numerique.sncf.com/startup/api/token-developpeur/) to start using the API.
+With the free version you can make up to 150 000 requests/month (5000 requests/day).
 
 Currently, two official plugins are available:
 
