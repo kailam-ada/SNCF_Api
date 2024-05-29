@@ -15,8 +15,8 @@ The project is live ! [Check it out !](https://sncf-api-project-by-kai.vercel.ap
 
 ## Documentation
 
-The [SNCF API](https://numerique.sncf.com/startup/api/) is built with [Navitia](https://doc.navitia.io/#getting-started).
-You need [to get an API key](https://numerique.sncf.com/startup/api/token-developpeur/) to start using the API.
+The [SNCF API](https://numerique.sncf.com/startup/api/) is built with [Navitia](https://doc.navitia.io/#getting-started).\n
+You need [to get an API key](https://numerique.sncf.com/startup/api/token-developpeur/) to start using the API.\n
 With the free version you can make up to 150 000 requests/month (5000 requests/day).
 
 Currently, two official plugins are available:
