@@ -3,7 +3,7 @@
 
 ## About the project
 
-The aim was to create a project with React where I fetch datas from the SCNF API.
+The aim was to create a project with React where I fetch datas from the SNCF API.
 
 ## Demo
 
