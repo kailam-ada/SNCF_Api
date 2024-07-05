@@ -13,6 +13,14 @@ The aim was to create a project with React where I fetch datas from the SNCF API
 
 The project is live ! [Check it out !](https://sncf-api-project-by-kai.vercel.app/)
 
+## Stacks
+
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white)
+- ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+- ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
 ## Documentation
 
 The [SNCF API](https://numerique.sncf.com/startup/api/) is built with [Navitia](https://doc.navitia.io/#getting-started).<br/>
